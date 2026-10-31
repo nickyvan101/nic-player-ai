@@ -37,7 +37,7 @@
 - EULA：1.1.0（2026-11-01，完全免費）
 - 隱私政策：1.1.0（2026-11-01）
 - 第三方元件授權：`NicPlayer-ThirdPartyNotices-1.1.0.zip`
-- 原始碼：依 GPL／LGPL 要求可透過客服索取，**不公開上傳 GitHub Releases**。
+- 原始碼：依 GPL／LGPL 要求可透過客服索取，**不公開上傳 Nic Player 原始碼**；完整書面要約與 FFmpeg／mpv build 資訊見 `docs/licenses/SOURCE-OFFER.md`。
 
 ## 已知限制
 
