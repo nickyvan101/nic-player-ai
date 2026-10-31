@@ -8,6 +8,8 @@
 - 簽章：NotSigned（未簽章；SmartScreen 可能顯示「未知的發行者」）
 - EULA／PRIVACY：1.1.0／2026-11-01
 
+> 請尊重智慧財產權，僅供個人合法影音播放與備份使用。
+
 ## 本次更新
 
 - **可直接覆蓋安裝**：不必先移除舊版；設定、播放紀錄、AI 引擎／模型與下載引擎（yt-dlp）會保留。
@@ -31,6 +33,14 @@
 - Installer FileVersion／ProductVersion：1.1.0；NotSigned。
 - Installer 內 `docs/EULA.txt` 與 `build/EULA.txt` SHA-256 一致（`c4e0aebc498821e43fd2a09249a2cb0c3b4e25293e785f2ae3430be881de4c2b`）。
 - App 內版本 1.1.0；不含 `license.js`／`quota-integrity.js`，renderer 沒有序號／授權 UI。
+
+## 第三方建置版本
+
+- **FFmpeg／FFprobe**：`n8.1.3-16-ge0a878dd70-20261009`（BtbN 建置，GPL-3.0）
+  - 建置庫：<https://github.com/BtbN/FFmpeg-Builds>
+- **mpv**：`v0.41.0-1115-gb2c255c13`（shinchiro 建置，GPL-2.0+；內含 FFmpeg `N-127267-gef305e32e`）
+  - 建置庫：<https://github.com/shinchiro/mpv-winbuild-cmake>
+- **GPL／LGPL 原始碼要約與完整 build 資訊**：[docs/licenses/SOURCE-OFFER.md](https://github.com/nickyvan101/nic-player-ai/blob/main/docs/licenses/SOURCE-OFFER.md)
 
 ## 授權文件
 
