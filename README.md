@@ -124,7 +124,9 @@ Google Cast（Chromecast、Android TV、Google TV）、AirPlay／AirPlay 2（App
 - [EULA（1.1.0，完全免費）](docs/EULA.txt)
 - [隱私政策（1.1.0）](docs/PRIVACY.txt)
 - [第三方元件授權](docs/licenses/README.md)
-- 原始碼：依 GPL／LGPL 要求可透過客服索取（不公開上傳 GitHub Releases）。
+- [第三方原始碼要約（GPL／LGPL）](docs/licenses/SOURCE-OFFER.md)
+- [Node 子依賴 notices](docs/licenses/NODE-SUBDEPS-NOTICES.txt)
+- 原始碼：依 GPL／LGPL 要求可透過客服索取（不公開上傳 Nic Player 原始碼）；完整要約見 [docs/licenses/SOURCE-OFFER.md](docs/licenses/SOURCE-OFFER.md)。
 - [AI 引擎與必要元件 1.0.0](https://github.com/nickyvan101/nic-player-ai/releases/tag/ai-1.0.0)（主程式之外的 AI 元件）
 
 > Nic Player 與 Google、Apple、Microsoft 無隸屬關係；Chromecast、AirPlay、DLNA 等名稱與商標屬各自權利人。影片下載與播放請遵守來源網站條款與著作權規定。
