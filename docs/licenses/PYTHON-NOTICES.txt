@@ -1,0 +1,45 @@
+AirPlay 輔助程式（PyInstaller 凍結）Python 套件著作權與出處
+============================================================
+
+本產品隨附的 AirPlay 輔助程式以 PyInstaller 凍結，內含下列 Python 套件。
+各套件皆為未修改之官方發行版；授權全文與原始碼請見各專案頁面，完整條文亦隨附於
+docs/licenses/。本清單補充套件名稱、授權與出處，以便逐項追溯。
+
+| 套件 | 授權 | 出處 |
+|---|---|---|
+| pyatv 0.18.x（© Pierre Ståhl） | MIT | https://github.com/postlund/pyatv |
+| python-zeroconf 0.152.x（© python-zeroconf contributors） | LGPL-2.1-or-later | https://github.com/python-zeroconf/python-zeroconf |
+| Python 3.13（© Python Software Foundation） | PSF-2.0 | https://www.python.org |
+| aiohttp（© aio-libs contributors） | Apache-2.0 | https://github.com/aio-libs/aiohttp |
+| aiosignal（© aio-libs contributors） | Apache-2.0 | https://github.com/aio-libs/aiosignal |
+| frozenlist（© aio-libs contributors） | Apache-2.0 | https://github.com/aio-libs/frozenlist |
+| multidict（© aio-libs contributors） | Apache-2.0 | https://github.com/aio-libs/multidict |
+| propcache（© aio-libs contributors） | Apache-2.0 | https://github.com/aio-libs/propcache |
+| yarl（© aio-libs contributors） | Apache-2.0 | https://github.com/aio-libs/yarl |
+| requests（© Kenneth Reitz） | Apache-2.0 | https://github.com/psf/requests |
+| urllib3（© Andrey Petrov） | MIT | https://github.com/urllib3/urllib3 |
+| cryptography 50.0.x（© Python Cryptographic Authority） | Apache-2.0 OR BSD-3-Clause | https://github.com/pyca/cryptography |
+| OpenSSL（© The OpenSSL Project） | Apache-2.0 | https://www.openssl.org |
+| certifi（© Kenneth Reitz） | MPL-2.0 | https://github.com/certifi/python-certifi |
+| attrs 26.1.x（© Hynek Schlawack） | MIT | https://github.com/python-attrs/attrs |
+| charset-normalizer（© Ahmed TAHRI） | MIT | https://github.com/jawah/charset_normalizer |
+| pydantic 2.14.x（© Samuel Colvin） | MIT | https://github.com/pydantic/pydantic |
+| pydantic_core（© Samuel Colvin） | MIT | https://github.com/pydantic/pydantic-core |
+| tabulate（© astanin） | MIT | https://github.com/astanin/python-tabulate |
+| tinytag（© Tom Wallroth） | MIT | https://github.com/tinytag/tinytag |
+| ifaddr（© Stefan C. Mueller） | MIT | https://github.com/pydron/ifaddr |
+| cffi（© Armin Rigo, Maciej Fijalkowski） | MIT | https://github.com/python-cffi/cffi |
+| idna（© Kim Davies） | BSD-3-Clause | https://github.com/kjd/idna |
+| srptools（© Svartalf） | BSD-3-Clause | https://github.com/svartalf/python-srptools |
+| chacha20poly1305-reuseable（© mise） | Apache-2.0 OR BSD-3-Clause | https://github.com/mise/th-chacha20poly1305-reuseable |
+| protobuf（© Google Inc.） | BSD-3-Clause | https://github.com/protocolbuffers/protobuf |
+| miniaudio（© David Reid） | Public Domain / MIT-0 | https://github.com/mackron/miniaudio |
+| libffi（© Anthony Green, Red Hat, Inc. and others） | MIT | https://github.com/libffi/libffi |
+| setuptools（© Python Packaging Authority） | MIT | https://github.com/pypa/setuptools |
+| PyInstaller bootloader（© PyInstaller developers） | GPL-2.0-or-later WITH Bootloader-exception | https://pyinstaller.org |
+
+註：部分純 Python 套件已被 PyInstaller 凍結進執行檔，原始碼中的版權行不會以獨立檔案
+出現在 _internal/；本清單與 docs/licenses/PyInstaller-COPYING.txt、MIT.txt、
+Apache-2.0.txt、BSD-3-Clause.txt、LGPL-2.1.txt、MPL-2.0.txt、PSF-2.0.txt 共同構成
+授權聲明。若需要個別套件的完整原始碼，請由上方專案頁面取得，或依 GPL／LGPL 條款向
+本軟體提供者索取。

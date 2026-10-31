@@ -1,0 +1,20 @@
+Microsoft 可散布元件聲明
+=========================
+
+本產品隨附下列 Microsoft 可散布元件（Redistributable），其著作權屬 Microsoft Corporation：
+
+- d3dcompiler_43.dll（DirectX 著色器編譯器，隨 mpv 引擎散布）
+- MSVCP140.dll、VCRUNTIME140.dll、VCRUNTIME140_1.dll、VCOMP140.dll
+  （Microsoft Visual C++ 2015-2022 執行期，隨 AirPlay 輔助程式與 CUDA 版 AI 引擎散布）
+
+這些檔案不是開源軟體，而是依 Microsoft 的可散布元件條款隨應用程式散布，不收權利金。
+散布者必須持有有效的 Microsoft Visual Studio／Windows SDK 授權，且不得修改這些檔案、
+不得單獨以 Microsoft 名義散布，也不得移除檔案中的著作權標示。
+
+官方條款與可散布清單：
+- Microsoft Visual Studio 授權條款：https://visualstudio.microsoft.com/license-terms/
+- Microsoft Visual C++ 可散布套件：https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist
+- DirectX 可散布元件（d3dcompiler）：https://learn.microsoft.com/windows/win32/directx-sdk--august-2009-
+
+若你需要 Microsoft 的完整授權條款原文，請以上述官方連結為準；本檔案僅為出處與聲明，
+不取代 Microsoft 的授權條款。
