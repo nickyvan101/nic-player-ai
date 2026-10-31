@@ -34,7 +34,7 @@
 - EULA：1.0.0（2026-11-01，完全免費）
 - 隱私政策：1.0.0（2026-11-01）
 - 第三方元件授權：`NicPlayer-ThirdPartyNotices-1.0.0.zip`
-- 原始碼快照：`source-snapshot-1.0.0.zip`（GPL／LGPL 對應源碼與建置追溯）
+- 原始碼：依 GPL／LGPL 要求可透過客服索取，不公開上傳 GitHub Releases。
 
 ## 已知限制
 
