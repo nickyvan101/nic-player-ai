@@ -6,6 +6,8 @@
 - 大型 Whisper／Qwen 模型**不在這裡**：維持由 Hugging Face 官方來源下載，manifest 已指向官方固定 commit。
 - 這些檔案的 SHA-256 與 Nic Player 的簽章 manifest 一致；App 首次使用 AI 時會自動下載、驗簽、解壓。
 
+> 請尊重智慧財產權，僅供個人合法影音播放與備份使用。
+
 ## 內容
 
 - `engine-whisper-cpu-1.0.0.zip`
