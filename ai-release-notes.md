@@ -14,6 +14,14 @@
 - `engine-llama-cuda-1.0.0.zip`
 - `ggml-silero-v5.1.2.bin`
 
+## 授權文件
+
+- 各引擎 zip 內含 `THIRD-PARTY-NOTICES.txt` 與 `licenses/`（MIT、Apache-2.0、LLVM Exception）。
+- CUDA 版另含 NVIDIA CUDA runtime 與 Microsoft VC++ runtime；NVIDIA EULA 與 Microsoft 可散布元件聲明另以下列 assets 提供：
+  - `NVIDIA-CUDA-EULA.txt`
+  - `MICROSOFT-REDISTRIBUTABLES.txt`
+- 完整第三方清單以 Nic Player 安裝後的 `docs/licenses/` 為準。
+
 ## 注意
 
 - 這是 AI 元件，不是可獨立執行的應用程式。
