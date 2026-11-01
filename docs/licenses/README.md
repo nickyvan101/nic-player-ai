@@ -60,7 +60,7 @@
 |---|---|
 | whisper.cpp（含 CPU／CUDA 版引擎） | MIT |
 | llama.cpp／ggml（含 CPU／CUDA 版引擎） | MIT |
-| Whisper large-v3 模型權重（OpenAI 官方 ggml 檔） | **Apache-2.0**（OpenAI 模型頁標示；本產品使用 ggerganov/whisper.cpp 的 ggml 轉檔。該轉檔 repo 的 metadata 標示 MIT，但那只涵蓋轉檔工具／程式；原始 OpenAI weights 仍以 Apache-2.0 為準，不能只用 MIT 概括） |
+| Whisper large-v3 模型權重（OpenAI 官方 ggml 檔） | **Apache-2.0**（OpenAI 模型頁標示；本產品使用 ggerganov/whisper.cpp 的 ggml 轉檔。該轉檔 repo 的 metadata 標示 MIT，但原始 OpenAI weights 官方模型卡是 Apache-2.0；為避免授權衝突，應以 Apache-2.0 為主，不能只用 MIT 概括） |
 | Whisper large-v3-turbo 模型權重 | **MIT**（OpenAI 模型頁標示） |
 | Qwen3-4B-Instruct-2507（GGUF 量化：Unsloth） | Apache-2.0（依授權保留聲明；GGUF by Unsloth） |
 | Silero VAD（模型） | MIT |
