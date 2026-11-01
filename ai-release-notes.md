@@ -26,7 +26,7 @@
 
 ## 模型授權
 
-- **Whisper large-v3**：Apache-2.0（OpenAI 權重；`ggerganov/whisper.cpp` 的 ggml 轉檔 repo metadata 標示 MIT，但只涵蓋轉檔工具／程式，不覆蓋 OpenAI 權重）。
+- **Whisper large-v3**：Apache-2.0（OpenAI 權重；`ggerganov/whisper.cpp` 的 ggml 轉檔 repo metadata 標示 MIT，與 OpenAI weights 的 Apache-2.0 有標示差異；為避免衝突以 Apache-2.0 為主）。
 - **Whisper large-v3-turbo**：MIT（OpenAI）。
 - **Qwen3-4B-Instruct-2507（GGUF by Unsloth）**：Apache-2.0。
 - **Silero VAD**：MIT。
