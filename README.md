@@ -1,14 +1,14 @@
-<div align="center">
-  <img src="assets/hero.png" alt="Nic Player 1.1.1 — 把電腦裡的影片，投到客廳的大電視" width="100%">
+﻿<div align="center">
+  <img src="assets/hero.png" alt="Nic Player 1.1.2 — 把電腦裡的影片，投到客廳的大電視" width="100%">
   <br><br>
-  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.1/NicPlayer-Setup-1.1.1-x64.exe">
-    <img src="https://img.shields.io/badge/Download_for_Windows-1.1.1-d4af37?style=for-the-badge&logo=windows&logoColor=black" alt="Download Nic Player 1.1.1 for Windows">
+  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.2/NicPlayer-Setup-1.1.2-x64.exe">
+    <img src="https://img.shields.io/badge/Download_for_Windows-1.1.2-d4af37?style=for-the-badge&logo=windows&logoColor=black" alt="Download Nic Player 1.1.2 for Windows">
   </a>
-  <a href="https://github.com/nickyvan101/nic-player-ai/releases/tag/app-1.1.1">
-    <img src="https://img.shields.io/badge/Release_Notes-1.1.1-24292f?style=for-the-badge" alt="Release notes">
+  <a href="https://github.com/nickyvan101/nic-player-ai/releases/tag/app-1.1.2">
+    <img src="https://img.shields.io/badge/Release_Notes-1.1.2-24292f?style=for-the-badge" alt="Release notes">
   </a>
   <br><br>
-  <img src="https://img.shields.io/badge/version-1.1.1-d4af37?style=flat-square" alt="version">
+  <img src="https://img.shields.io/badge/version-1.1.2-d4af37?style=flat-square" alt="version">
   <img src="https://img.shields.io/badge/price-100%25_Free-d4af37?style=flat-square" alt="free">
   <img src="https://img.shields.io/badge/platform-Windows_10_%2F_11-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
   <img src="https://img.shields.io/badge/tests-43%2F43_PASS-2ea44f?style=flat-square" alt="tests">
@@ -18,7 +18,7 @@
 
 <p align="center">
   <b>Nic Player</b> 是為 Windows 打造的桌面播放器：本地影片、網頁影片、Chromecast、AirPlay、DLNA，一次搞定。<br>
-  <b>1.1.1</b>——完全免費無廣告，也不需要註冊帳號。
+  <b>1.1.2</b>——完全免費無廣告，也不需要註冊帳號。
 </p>
 
 ---
@@ -44,7 +44,7 @@
 
 ## 三步驟，開始看
 
-1. **下載並安裝** Nic Player 1.1.1（Windows 10 22H2／11 x64）。
+1. **下載並安裝** Nic Player 1.1.2（Windows 10 22H2／11 x64）。
 2. **加入影片**：拖進視窗、選擇本機檔案，或貼上網頁影片連結。
 3. **選電視、按投放**；沒有電視也可以用內建播放器直接在電腦看。
 
@@ -54,21 +54,21 @@
 
 <div align="center">
 
-## 下載 Nic Player 1.1.1
+## 下載 Nic Player 1.1.2
 
-<a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.1/NicPlayer-Setup-1.1.1-x64.exe">
-  <img src="https://img.shields.io/badge/Download_for_Windows-1.1.1-d4af37?style=for-the-badge&logo=windows&logoColor=black" alt="Download">
+<a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.2/NicPlayer-Setup-1.1.2-x64.exe">
+  <img src="https://img.shields.io/badge/Download_for_Windows-1.1.2-d4af37?style=for-the-badge&logo=windows&logoColor=black" alt="Download">
 </a>
 
 **Windows 10 22H2／Windows 11 x64**　·　約 264 MB　·　未簽章
 
-SHA-256：`f64e28cb605fe9f94e296646aa8aa5a0308fa96e9ec7d6e9de2a8e79cc38523c`
+SHA-256：`0bb1f13aabb63f4e52a0e979be6cc8f9ff574ed05b9f6770ed43f9423a24d5db`
 
-[Release Notes](https://github.com/nickyvan101/nic-player-ai/releases/tag/app-1.1.1)　·　[使用說明](使用說明.md)
+[Release Notes](https://github.com/nickyvan101/nic-player-ai/releases/tag/app-1.1.2)　·　[使用說明](使用說明.md)
 
 </div>
 
-> **SmartScreen 提醒**：1.1.1 是未簽章版本，Windows 可能顯示「未知的發行者」。這是因為目前沒有程式碼簽章憑證，不是病毒；可選擇「仍要執行」。下載後可用上方 SHA-256 核對檔案。
+> **SmartScreen 提醒**：1.1.2 是未簽章版本，Windows 可能顯示「未知的發行者」。這是因為目前沒有程式碼簽章憑證，不是病毒；可選擇「仍要執行」。下載後可用上方 SHA-256 核對檔案。
 
 ## 系統需求
 
@@ -122,8 +122,8 @@ Google Cast（Chromecast、Android TV、Google TV）、AirPlay／AirPlay 2（App
 
 ## 授權、隱私與原始碼
 
-- [EULA（1.1.1，完全免費）](docs/EULA.txt)
-- [隱私政策（1.1.1）](docs/PRIVACY.txt)
+- [EULA（1.1.2，完全免費）](docs/EULA.txt)
+- [隱私政策（1.1.2）](docs/PRIVACY.txt)
 - [第三方元件授權](docs/licenses/README.md)
 - [第三方原始碼要約（GPL／LGPL）](docs/licenses/SOURCE-OFFER.md)
 - [Node 子依賴 notices](docs/licenses/NODE-SUBDEPS-NOTICES.txt)
@@ -133,5 +133,6 @@ Google Cast（Chromecast、Android TV、Google TV）、AirPlay／AirPlay 2（App
 > Nic Player 與 Google、Apple、Microsoft 無隸屬關係；Chromecast、AirPlay、DLNA 等名稱與商標屬各自權利人。影片下載與播放請遵守來源網站條款與著作權規定。
 
 <div align="center">
-  <sub>Nic Player 1.1.1 · 2026-11-01 · Made for the couch.</sub>
+  <sub>Nic Player 1.1.2 · 2026-11-01 · Made for the couch.</sub>
 </div>
+
