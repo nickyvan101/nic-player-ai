@@ -24,6 +24,13 @@
   - `MICROSOFT-REDISTRIBUTABLES.txt`
 - 完整第三方清單以 Nic Player 安裝後的 `docs/licenses/` 為準。
 
+## 模型授權
+
+- **Whisper large-v3**：Apache-2.0（OpenAI 權重；`ggerganov/whisper.cpp` 的 ggml 轉檔 repo metadata 標示 MIT，但只涵蓋轉檔工具／程式，不覆蓋 OpenAI 權重）。
+- **Whisper large-v3-turbo**：MIT（OpenAI）。
+- **Qwen3-4B-Instruct-2507（GGUF by Unsloth）**：Apache-2.0。
+- **Silero VAD**：MIT。
+
 ## 注意
 
 - 這是 AI 元件，不是可獨立執行的應用程式。
