@@ -83,15 +83,9 @@ SHA-256：`0bb1f13aabb63f4e52a0e979be6cc8f9ff574ed05b9f6770ed43f9423a24d5db`
 ## 常見問題
 
 <details>
-<summary><b>真的完全免費嗎？需要序號嗎？</b></summary>
+<summary><b>真的完全免費嗎？</b></summary>
 <br>
-是。1.0.0 起不需要序號、不需要付款，也沒有每日使用時數或下載次數限制。程式不會連線授權伺服器，也不會回傳使用量。
-</details>
-
-<details>
-<summary><b>需要註冊帳號嗎？</b></summary>
-<br>
-不需要。下載、安裝、播放都不需要帳號。
+是。完全免費，沒有任何使用限制，也不會有廣告打擾。
 </details>
 
 <details>
