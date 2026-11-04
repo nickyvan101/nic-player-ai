@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-Setup-1.1.8-x64.exe">
-    <img src="https://img.shields.io/badge/Download_for_Windows-1.1.8-d4af37?style=for-the-badge&logo=windows&logoColor=0b0b0d" alt="Download Nic Player for Windows">
+  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.9/NicPlayer-Setup-1.1.9-x64.exe">
+    <img src="https://img.shields.io/badge/Download_for_Windows-1.1.9-d4af37?style=for-the-badge&logo=windows&logoColor=0b0b0d" alt="Download Nic Player for Windows">
   </a>
   <a href="https://github.com/nickyvan101/nic-player-ai/releases/latest">
-    <img src="https://img.shields.io/badge/Release_Notes-1.1.8-24292f?style=for-the-badge" alt="Release notes">
+    <img src="https://img.shields.io/badge/Release_Notes-1.1.9-24292f?style=for-the-badge" alt="Release notes">
   </a>
   <img src="https://img.shields.io/badge/Windows_10_22H2_·_11-x64-0b0b0d?style=flat-square&logo=windows&logoColor=d4af37" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/100%25_Free-No_Ads-d4af37?style=flat-square" alt="Free">
@@ -25,8 +25,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-Setup-1.1.8-x64.exe">
-    <img src="https://img.shields.io/badge/⬇_立即下載-Nic_Player_1.1.8-d4af37?style=for-the-badge&logoColor=0b0b0d" alt="立即下載">
+  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.9/NicPlayer-Setup-1.1.9-x64.exe">
+    <img src="https://img.shields.io/badge/⬇_立即下載-Nic_Player_1.1.9-d4af37?style=for-the-badge&logoColor=0b0b0d" alt="立即下載">
   </a>
   <a href="#四個最有感的功能">
     <img src="https://img.shields.io/badge/先看四大功能-24292f?style=for-the-badge" alt="先看四大功能">
@@ -180,12 +180,12 @@ Nic Player 不是把畫面即時壓縮後硬丟到電視，而是先替你把路
 ## 下載與安裝
 
 <p align="center">
-  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-Setup-1.1.8-x64.exe">
-    <img src="https://img.shields.io/badge/⬇_下載_Nic_Player_1.1.8-d4af37?style=for-the-badge&logoColor=0b0b0d" alt="下載 Nic Player 1.1.8">
+  <a href="https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.9/NicPlayer-Setup-1.1.9-x64.exe">
+    <img src="https://img.shields.io/badge/⬇_下載_Nic_Player_1.1.9-d4af37?style=for-the-badge&logoColor=0b0b0d" alt="下載 Nic Player 1.1.9">
   </a>
 </p>
 
-1. 下載 **[NicPlayer-Setup-1.1.8-x64.exe](https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-Setup-1.1.8-x64.exe)**（直接下載安裝程式，不是版本列表頁）。
+1. 下載 **[NicPlayer-Setup-1.1.9-x64.exe](https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.9/NicPlayer-Setup-1.1.9-x64.exe)**（直接下載安裝程式，不是版本列表頁）。
 2. 執行安裝；未簽章版本可能出現 Windows SmartScreen「未知的發行者」，選擇「仍要執行」即可。
 3. 第一次使用 AI 字幕時，軟體會引導下載 AI 引擎與模型。
 
