@@ -23,7 +23,7 @@
 
 請在請求中註明：
 
-- Nic Player 版本（例如 1.1.10）
+- Nic Player 版本（例如 1.1.11）
 - 元件名稱（FFmpeg／mpv／python-zeroconf）
 - 您的聯絡方式
 
