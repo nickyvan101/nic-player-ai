@@ -1,56 +1,28 @@
-# Nic Player 1.1.8 — 換電腦還原後可接續播放
+# Nic Player 1.1.14 — 安全 DNS 修復、更新完成自動重啟
 
 ## 本次更新
 
-- **換電腦還原後可接續播放**：從另一台電腦匯入備份後，播放紀錄裡的網頁影片或相同路徑的本機影片，按「接續播放」或「從頭播放」時，不再被上一支影片留下的結束事件誤判成載入失敗。
-- **立即下載開啟安裝檔**：軟體更新視窗右下角「立即下載」只開啟最新版安裝程式，不會開啟版本列表頁。
+- **修正「瀏覽器能播、App 卻連不上」的 DNS 問題**：安全 DNS（DoH）原本只加 Chromium 命令列旗標，實測不會生效；現在改用 Electron 正式 API `app.configureHostResolver()`，啟動時自動偵測 Cloudflare／Google DoH，可用就完全走 DoH，不可用才退回系統 DNS。
+- **Node 端 DoH 備援**：媒體、下載與 AI 連線遇到 DNS／連線失敗時，會改用 DoH 解析的位址重試；成功後記住該主機，後續請求直接走正確位址。
+- **通用網路後援**：Electron net 逾時／失敗也會嘗試 Node；Node 成功後記住主機，後續 HLS 分段不再重複等待。
+- **更新視窗移除右下角「立即下載」**：只保留主程式區的「下載並更新／下載更新」，不再有重複的下載入口。
+- **更新完成後會自動重新開啟 App**：修正更新 runner 把 `ELECTRON_RUN_AS_NODE` 環境變數傳給重新啟動的 App，導致 App 被當成 Node 執行而立即消失的問題。
+- **授權協議／隱私政策**：版本更新為 1.1.14（2026-11-07）。
 
-## 檔案資訊
+## 修正
 
-- 發佈日期：2026-11-04
-- 版本：1.1.8（Windows x64，完全免費）
-- 安裝檔：[NicPlayer-Setup-1.1.8-x64.exe](https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-Setup-1.1.8-x64.exe)
-- 大小：276,881,823 bytes
-- SHA-256：`76390a8c9420376cde489dd6e50cb7014a1dd8ba77c20f0674defb39a0c5c178`
-- 簽章：NotSigned（未簽章；SmartScreen 可能顯示「未知的發行者」，請選「仍要執行」）
-- EULA／PRIVACY：1.1.8／2026-11-04
-
-> 請尊重智慧財產權，僅供個人合法影音播放與備份使用。
-
-## 下載
-
-- [NicPlayer-Setup-1.1.8-x64.exe](https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-Setup-1.1.8-x64.exe)
-- [SHA-256](https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-Setup-1.1.8-x64.exe.sha256)
-- [第三方授權文件](https://github.com/nickyvan101/nic-player-ai/releases/download/app-1.1.8/NicPlayer-ThirdPartyNotices-1.1.8.zip)
-
-舊版 1.1.7 的下載連結已移除；請使用 1.1.8。
-
-## 系統需求
-
-- Windows 10 22H2／Windows 11 x64
-- 首次使用 AI 字幕需下載 AI 引擎與模型（需要網路與足夠磁碟空間）
-- 未簽章版本不會自動安裝主程式更新；AI／下載引擎仍驗簽與 SHA-256
-
-## 驗證
-
-- 完整測試：44／44 通過（`node test/run-all.js`，exit 0）
-- Installer FileVersion／ProductVersion：1.1.8；app.asar 版本：1.1.8
-- Installer `docs/EULA.txt` 與 `build/EULA.txt` SHA-256 一致：`c7ddcc7132f8976b428113378e512d4b5aeb994aefb065ac8b69cd95721cba54`
-- Installer 為 NotSigned
-- 安裝時顯示的授權協議為 1.1.8／2026-11-04
-
-## 第三方元件
-
-- FFmpeg／FFprobe：`n8.1.3-16-ge0a878dd70-20261009`（BtbN 建置，GPL-3.0）
-- mpv：`v0.41.0-1115-gb2c255c13`（shinchiro 建置，GPL-2.0+；內含 FFmpeg `N-127267-gef305e32e`）
-- 完整授權、原始碼要約與 Node 子依賴 notices 隨 installer 的 `docs/licenses/` 提供；GPL／LGPL 對應源碼可依 `SOURCE-OFFER.md` 向客服書面索取。
+- 安全 DNS 改在 `app.whenReady()` 後設定；啟動時先探測 DoH，避免 DoH 被封鎖時整個 App 失去 DNS。
+- Node 上游請求：系統 DNS 失敗或逾時時改用 DoH 位址（每個主機最多兩個候選、TTL 快取、成功後記住主機）。
+- 更新流程：等待 App 結束 → `/S --updated` 靜默安裝 → 安裝完成 2 秒後重新開啟 App。
+- 更新視窗 footer 只保留「檢查更新」；移除 installer 直連按鈕與 `officialInstallerUrl()` 相關程式碼。
 
 ## 已知限制
 
-- 未簽章 installer 可能觸發 Windows SmartScreen。
-- 「立即下載」只開啟官方 installer，不會自動安裝。
-- 只有 AI／yt-dlp 更新時不會顯示「立即下載」。
-- 備份還原後，本機影片與手動字幕路徑必須在 B 電腦存在。
-- 網頁需要登入、Cookie 失效、Cloudflare 或地區限制時，重新解析仍可能失敗。
-- 同一部影片在兩個 Nic Player 同時播放時，進度採最後寫入者勝。
-- 這次修正的是上一支影片留下的結束事件。若影片來源本身已失效，重新解析仍可能失敗。尚未用這支安裝檔在另一台電腦重測匯入後的播放。
+- 瀏覽器擴充的私有遠端隧道、DRM／Widevine、CDN 對 IP／區域的封鎖，App 無法繞過；需要系統級 VPN、瀏覽器播放或本機檔案。
+- 本版安裝檔未簽章，Windows SmartScreen 可能顯示「未知的發行者」。
+- 更舊版本第一次升級仍需手動安裝 1.1.14；1.1.12 起支援 App 內一鍵更新。
+
+## 系統需求
+
+- Windows 10／11 x64
+- 約 300 MB 安裝空間（另需媒體快取空間）
